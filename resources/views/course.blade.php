@@ -16,7 +16,7 @@
                             @if($course)
                                 <div class="single-post has-post-thumbnail">
                                     <div class="pic-post">
-                                        <img src="{{asset('storage/'.$course->image)}}" alt="{{$course->title}}">
+                                        <img style="max-width: 100%;height: 400px; object-fit: contain" src="{{asset('storage/'.$course->image)}}" alt="{{$course->title}}">
 
                                         <span class="date-post">
 										{{date('d-m-Y', strtotime($course->created_at))}}

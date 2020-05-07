@@ -23,9 +23,9 @@
                     @foreach($courses as $course)
                         <div class="col-md-10 col-lg-4">
                         <div class="item-card">
-                            <div class="pic-card">
+                            <div class="pic-card" style="height: 300px;">
                                 <a href="/course/{{$course->id}}">
-                                    <img src="{{asset('storage/'.$course->image)}}" alt="{{$course->title}}">
+                                    <img  src="{{asset('storage/'.$course->image)}}" alt="{{$course->title}}">
                                 </a>
                             </div>
 
