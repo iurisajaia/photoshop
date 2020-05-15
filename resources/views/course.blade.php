@@ -52,7 +52,7 @@
                                         <div class="hun-section-image-text layout-1 style-2 reverse m-b-130">
                                             <div class="accordion-list js-call-accordion">
                                                 @foreach($course->titles as $title)
-                                                    <div class="item-list js-dropdown active-dropdown">
+                                                    <div class="item-list js-dropdown ">
                                                         <h4 class="title-item js-toggle-dropdown">
                                                             {{$title->title}}
                                                         </h4>
